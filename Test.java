@@ -16,5 +16,11 @@ public class Test {
         System.out.println(loader2.load(SiteLoader.Currency.EUR));
         System.out.println(loader2.load(SiteLoader.Currency.USD));
 
+        BPS loader3 = new BPS();
+        System.out.println(loader3.load(SiteLoader.Currency.EUR));
+        System.out.println(loader3.load(SiteLoader.Currency.RUB));
+        System.out.println(loader3.load(SiteLoader.Currency.USD));
+
+
     }
 }
